@@ -1,0 +1,54 @@
+body{
+  background-color: #81c9ea;
+  text-align: center;
+}
+
+
+#Mallorca:hover{
+  fill:red;
+}
+#Menorca:hover{
+  fill:red;
+}
+#Ibiza:hover{
+  fill:red;
+}
+#Formentera:hover{
+  fill:red;
+}
+
+#Mallorca:hover+#mallorcatxt {
+    display: block;
+}
+
+#Menorca:hover+#menorcatxt {
+    display: block;
+}
+
+#Ibiza:hover+#ibizatxt {
+    display: block;
+}
+
+#Formentera:hover+#formenteratxt {
+    display: block;
+}
+
+#mallorcatxt {
+    display: none;
+  }
+
+#cabreratxt {
+    display: none;
+}
+
+#menorcatxt {
+    display: none;
+}
+
+#ibizatxt {
+    display: none;
+}
+
+#formenteratxt {
+    display: none;
+}
